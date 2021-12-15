@@ -1,0 +1,73 @@
+.nav {
+    background-color:#111;
+    color:#fff;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+.nav__logo {
+    width:100px;
+    max-width: 100px;
+    padding: 10px 6px 0;
+}
+.nav__searchbar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.nav__searchbar .nav__input--search {
+    width: 100%;
+    padding:5px;
+}
+
+.nav__search__icon {
+    background-color: #F3A847;
+    color:#000;
+    height: 27px !important;
+    margin-left: -1px;
+    z-index: 4;
+    cursor: pointer
+}
+
+.nav__links__container {
+    display:flex !important;
+    align-items: center !important;
+    margin:0 20px
+}
+.nav__links__container .nav__link:not(:last-of-type) {
+    display: flex !important;
+    flex-direction: column !important;
+    
+}
+
+.nav__links__container .nav__link {
+    margin:0 10px;
+    display: flex !important;
+    cursor: pointer;
+    color:#fff !important;
+    text-decoration: none;
+
+}
+
+.nav__links__container .nav__link > div{
+    display: flex ;
+    flex-direction: column;
+}
+
+.nav__link--ship {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.nav__link--shippingcart {
+    color:#fff !important;
+}
+
+.nav__link--status, .nav__link--count {
+    font-size: 1rem;
+    font-weight: bold;
+}
