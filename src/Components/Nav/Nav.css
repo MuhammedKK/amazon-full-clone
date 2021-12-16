@@ -25,12 +25,13 @@
 }
 
 .nav__search__icon {
-    background-color: #F3A847;
+    background-color: var(--main-color);
     color:#000;
-    height: 27px !important;
+    height: 28px !important;
     margin-left: -1px;
     z-index: 4;
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 1px;
 }
 
 .nav__links__container {
